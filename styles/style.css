@@ -1,14 +1,15 @@
-/* -CSS RESETS- */
+/* - CSS RESETS - */
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-size: 10px;
+  font-size: 20px; /* to round off my REMs but still allow for a readable basefont */
 }
 body {
   margin: 0;
   background: black;
+  color: white;
 }
 
 ul {
@@ -22,4 +23,13 @@ img {
 
 
 
-/* -header- */
+/* - MAIN STYLE - */
+.section {
+  padding: 1rem;
+  background: green;
+}
+
+/* - HEADER - */
+.navbar {
+  background: #2196f3;
+}
