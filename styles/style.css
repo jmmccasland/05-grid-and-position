@@ -4,12 +4,12 @@
 }
 
 html {
-  font-size: 20px; /* to round off my REMs but still allow for a readable basefont */
+  font-size: 15px; /* to round off my REMs but still allow for a readable basefont */
 }
 body {
   margin: 0;
-  background: black;
-  color: white;
+  color: #000;
+  font-family: sans-serif;
 }
 
 ul {
@@ -31,6 +31,7 @@ img {
   align-items: center; /* vertical alignment ? */
 
   background: #2196f3;
+  color: #fefefe;
 }
 
 .logo {
@@ -45,4 +46,52 @@ img {
 
 .nav-list__item {
   margin: 0.5rem 1rem;
+}
+
+/* - GRID - */
+.container {
+  padding: 1rem;
+  /*background: green;*/
+
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid__item {
+  margin: 1rem;
+  flex-basis: calc(100% / 2 - 2rem);
+}
+
+/* - CARD - */
+
+
+.card__header {
+  background: #fdcc52;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.card__title {
+  padding: 2rem 0 2rem 3rem;
+  margin: 0;
+
+
+}
+
+.title__img {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
 }
