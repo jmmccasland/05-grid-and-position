@@ -59,7 +59,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 65rem;
+  max-width: 66rem;
   margin: 0 auto;
 }
 
@@ -93,5 +93,16 @@ img {
   left: 0;
   top: 50%;
   transform: translate(-50%, -50%);
+}
 
+.card__tag {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: .5rem;
+
+  color: #fff;
+  background: #2196f3;
 }
