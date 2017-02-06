@@ -25,7 +25,7 @@ img {
 
 /* - HEADER - */
 .header-nav__navbar {
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center; /* vertical alignment ? */
@@ -51,21 +51,20 @@ img {
 /* - GRID - */
 .container {
   padding: 1rem;
-  /*background: green;*/
-
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 66rem;
+  max-width: 65rem;
   margin: 0 auto;
 }
 
 .grid__item {
   margin: 1.5rem;
   flex-basis: calc(100% / 2 - 3rem);
+  flex-grow: 1;
 
 }
 
