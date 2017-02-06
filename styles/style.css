@@ -1,0 +1,22 @@
+/* -CSS RESETS- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: black;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%:
+}
+
+
+
+/* -header- */
