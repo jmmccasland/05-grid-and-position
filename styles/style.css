@@ -23,13 +23,26 @@ img {
 
 
 
-/* - MAIN STYLE - */
-.section {
+/* - HEADER - */
+.header-nav__navbar {
   padding: 1rem;
-  background: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* vertical alignment ? */
+
+  background: #2196f3;
 }
 
-/* - HEADER - */
-.navbar {
-  background: #2196f3;
+.logo {
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin: -0.5rem -1rem;
+}
+
+.nav-list__item {
+  margin: 0.5rem 1rem;
 }
