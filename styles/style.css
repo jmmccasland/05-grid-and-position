@@ -32,16 +32,19 @@ img {
 
   background: #2196f3;
   color: #fefefe;
+  font-size: .75rem;
 }
 
 .logo {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 .nav-list {
   display: flex;
   justify-content: space-between;
   margin: -0.5rem -1rem;
+  font-size: 1.25rem;
 }
 
 .nav-list__item {
